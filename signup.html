@@ -1,0 +1,40 @@
+<!DOCKTYPE HTML>
+<html>
+<head>
+<title>signup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div class= "login-box">
+<div class="left-box">
+<h1>signup</h1>
+<script src="signup.js"></script>
+<input type="text" class="input-box" placeholder="Enter-Username" required>
+<input type="email" class="input-box" placeholder="Enter-Email" required>
+<input type="password" id="psw" class="input-box" placeholder="Enter-Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+<input type="password" class="input-box" placeholder="Re-Enter password"  required>
+<a href="file:///C:/Users/hp/Desktop/basiclayout.html">
+<input type="submit" class="submit-btn" value="Sign Up">
+</a>
+
+</div>
+
+<div class="right-box">
+<span class="right-title">Sign up with <br> Social Network</span>
+<a href="https://www.facebook.com/">
+<button class="social facebook">Login with Facebook</button>
+</a>
+<a href="https://twitter.com/?lang=en">
+<button class="social twitter">Login with Twitter</button>
+</a>
+<a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button%26pli%3D1&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession">
+<button class="social google">Login with Google+</button>
+</a>
+</div>
+<div class="or">
+OR
+</div>
+</body>
+</html>

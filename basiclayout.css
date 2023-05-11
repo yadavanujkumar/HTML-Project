@@ -1,0 +1,82 @@
+body { 
+  background-image: url("1638116167972.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  
+  }
+  .nav {
+  background-color: transparents; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  }
+  
+  .nav li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+}
+.btn-group .button {
+  background-color: #d6644d; 
+  border: 1px solid black;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  float: center;
+}
+
+.btn-group .button:hover {
+  background-color: yellow;
+}
+.btn-group .button:not(:last-child) {
+  border-right: none;                     /* Prevent double borders */
+}
+.iframe
+{
+	background-color: white;
+	position: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+form.search input[type=text] {         /* Styling the search field */
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: orange;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
